@@ -5,7 +5,7 @@ export const formulas = [
  {id:'bloquelon-a',type:'Revoque',name:'Bloquelón · fórmula A',column:'E',percent:[52,0,25,20,2,.3,.7],water:[5,5.5],note:''},
  {id:'bloquelon-b',type:'Revoque',name:'Bloquelón · fórmula B',column:'G',percent:[23.3,23.3,23.3,27,2,.4,.7],water:[5,5.5],note:''},
  {id:'gen1',type:'Enfoscado',name:'Gen 1',column:'I',percent:[0,7.9,64,25,2,.4,.7],water:[4.5,4.5],note:''},
- {id:'exterior',type:'Estuco',name:'Eco-estuco exterior',column:'J',percent:[0,52,16,32,0,.4,.5],water:[5.5,6],note:'Pendiente de corrección: la fórmula del Excel suma 100,9 %. Debe sumar 100 % antes de preparar.'},
+ {id:'exterior',type:'Estuco',name:'Eco-estuco exterior',column:'J',percent:[0,51.1,16,32,0,.4,.5],water:[5.5,6],note:''},
  {id:'interior',type:'Estuco',name:'Eco-estuco interior',column:'K',percent:[0,89,0,10,0,.4,.6],water:[6,6.5],note:''},
 ];
 export function calculate(kg:number,percent:number[],water:number[]) {
